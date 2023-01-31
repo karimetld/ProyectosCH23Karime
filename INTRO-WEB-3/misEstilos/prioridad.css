@@ -1,0 +1,25 @@
+#id{
+    color:rgb(86, 201, 201);
+    font-size:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+    
+
+.pato{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align-last: right;
+    background-color: rgb(230, 166, 214);
+}
+
+h3{
+    color: darkolivegreen;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+div{
+    height: 400px;
+    width: 400px;
+}
