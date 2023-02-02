@@ -1,0 +1,21 @@
+input[type='image'] {
+    width: 40px;
+   margin-top: 1rem;
+   }
+
+body{
+    text-align: center;
+    border-color: black;
+    margin: 40px;
+    background-image: url(/Assets/1669890227_655659_1669890395_gigante_normal.jpg);
+    background-size: 2500px;
+}
+
+form{
+    margin: 0 50px;
+    padding: 15 px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    background-color: rgba(248, 252, 255, 0.63);
+   
+}
