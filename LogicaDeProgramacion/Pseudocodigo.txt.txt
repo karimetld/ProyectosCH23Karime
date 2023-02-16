@@ -1,0 +1,23 @@
+1.1 Pedir al usuario que ingrese los Grados Celcius = 45
+1.2 Avisarle al usuario que si no ingreso un dato tipo número, que lo vuelta intentar hasta que ingrese un dato tipo número
+1.3 Si ingresa un dato tipo número procedemos a tomar el dato para la conversión
+1.4 Guarda dato en CelciusMultiplica Grados Celcius * 9 para obtener Fahrenheit
+
+2.2 Divide entre 5
+2.3 Suma 32
+
+
+/Guarda dato Fahrenheit
+
+
+
+/Suma a Grados Celcius + 273.15
+
+
+
+3.4 Guarda dato Kelvin
+
+
+/Imprime primer resultado Fahrenheit = 113
+
+/Imprime segundo resultado Kelvin = 318.15
