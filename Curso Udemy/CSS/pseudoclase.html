@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclase</title>
+
+    <style>
+        /*en el universoal afecta a todo lo de la pag*/
+        *{
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding:0;
+            margin:0;
+        }
+        .menu{
+            background-color: rgb(55, 180, 180); /*Con # puedo colocar colores con su num*/
+            padding: 10px 0;
+            
+        }
+        
+        .menu-nav{
+            list-style: none;
+            padding: 10px 30px 20px;
+            margin: 0px;
+
+        }
+        .menu-nav__item{
+            display:inline-block;
+        }
+
+        .menu-nav__item a{
+            color:#fff;
+            text-decoration: none;
+            
+        }
+
+        /*Pseudoclases define el estilo de un estado de un elemento*/
+        /*Sirve para cambio de color al pasar el cursos
+        Con la a siempre se pone dos puntos y el nombre de la pseudoclase */
+        .menu-nav__item a:hover{
+            color: rgb(241, 157, 213);
+        }
+
+        /*Cuando hacemos click cambia de color*/
+        .menu-nav__item a:active{
+            color: rgb(199, 240, 105);
+        }
+
+        /*Pseudoelementos se pone a:: 
+        Agregar contenidos */
+        .menu-nav__item a::after{
+            content: "♡";
+
+        }
+        /*MODELO DE CAJAS*/
+        main{
+            width: 100%;
+            height: 300px;
+            border:10px solid rgb(253, 194, 253);
+            padding:20px 35px;
+
+        }
+        h1{
+            text-shadow: 4px 3px rgba(253, 141, 247, 0.384); /*Los rgba son para opacidad*/
+            color: rgb(3, 170, 156);
+            text-align:center;
+        }
+        h2{
+            color:lightpink;
+        }
+        .parraf{
+            text-align: center;
+            line-height: 1.5;
+            word-spacing: 10px;
+            
+        }
+        .parraff{
+            font-size: small;
+            font-style: italic;
+            font-weight: 200;
+        
+        }
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu"> <!--Aqui agrgeo clase para darle estilos solo al contenedor nav-->
+            <ul class="menu-nav"> <!--Aqui estilos a ul-->
+                <li class="menu-nav__item"><a href=""> Inicio</a></li> <!--Aqui agrego class para darle style a li-->
+                <li class="menu-nav__item"><a href="">Cursos</a></li>
+                <li class="menu-nav__item"><a href="">Blogs</a></li>
+                <li class="menu-nav__item"><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Hola a todos bienvenidos a mi pagina</h1>
+            <div class="parraf">
+                <p>Antes de comenzar este artículo, quiero  hacerte a ti la pregunta: ¿qué es para ti el amor? <br>Piénsalo por un momento, sin demasiados juicios hacia la definición o palabras que te salgan.
+
+                    <br>Cada persona tiene sus propias ideas sobre ello, y nunca encontraremos una verdad absoluta o <br> única que lo defina. En este artículo construiremos de la forma más completa posible qué es el amor.</p>
+            </div>
+
+            <div class="parraff">
+                <h2>Nueva seccion</h2>
+                <p>Las relaciones humanas son la fuente del amor. Aprendemos a amar por medio de la relación <br> que establecemos con los demás, ya que las experiencias compartidas fortalecen los vínculos emocionales.<br> A la vez, las relaciones de calidad se forman en la práctica del buen amor.</p>
+                <a href="">Twitter☺ </a>
+            </div>
+        
+            <ul>
+                <li>Informacion</li>
+            </ul>
+        </section>
+    </main>
+
+
+</body>
+</html>
