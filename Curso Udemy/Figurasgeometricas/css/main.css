@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /*Para quitar todos los estilo*/
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: #ffffff;
+ 
+}
+
+/*ENCABEZADO*/
+
+.header{
+    background-color: #bbfa87;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.header-title{
+    color: #e9117d;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-description{
+    color: #000000;
+    padding: 10px 0;
+    font-weight: bold;
+
+}
+
+/*RESPUESTA*/
+
+.answer{
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.answer p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*CONTENEDOR DE FIGURAS*/
+.figures{
+    width: 90%;
+    margin:auto;
+    padding: 10px;
+    overflow: hidden;
+    max-width: 1000px;
+}
+
+/*CASILLAS O CAJAS*/
+.box{
+    width: 30%;
+    height: 600px;
+    border:3px solid #bbfa87;
+    border-radius: 10px;
+    margin:15px;
+    float:left;
+}
+
+/*ENCABEZADO Y MAIN DE LA CAJA*/
+.box-header{
+    background-color: #bbfa87;
+    padding: 15px 0;
+    text-align: center;
+    color:#e9117d
+}
+
+.box-main{
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.box-main__text{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box-main__input{
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;;
+    margin:10px;
+    padding: 10px;
+    color:#e9117d;
+    border:solid #bbfa87;
+    border-radius: 5px;
+   display: inline-block;
+   text-align: center;
+  
+    
+}
+
+.box-main__btn{
+    background-color:#bbfa87;
+    color:#e9117d;
+    border-style: none;
+    border-radius: 10px;
+    border: #e9117d;
+    width:120px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: bold;
+    
+}
+
+.box-main__btn:hover{
+    background-color: #ebbad2;
+    cursor:pointer;
+
+}
+
+.box-main__btn:active{ /*Le adamos efecto al boton y se ve activo*/
+    background-color: #bbfa87;
+}
+
+/*WEB RESPONSIVO*/
+
+@media screen and (max-width:1021px) {
+    .box{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .figures{
+        width: 100%;
+    }
+
+    .box{
+        margin: 10px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .boxs{
+        width: 90%;
+        margin:25px;
+        height: auto;
+
+    }
+    
+}
+@media screen and (max-width:640px) {
+    .box{
+        width: 90%;
+        margin:20px;
+        height: auto;
+    }
+    .answer p{
+        font-size: 15px;
+    }
+    
+    .header-title{
+        font-size: 20px;
+    }
+}
+

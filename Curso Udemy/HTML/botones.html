@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones en html</title>
+
+    <style>
+        body{
+            background: rgb(247, 247, 247);
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+
+        div{
+            margin: 20px 0;
+        }
+        .btn{
+            background: rgb(240, 99, 221);
+            color:#fff;
+            font-size: 16px;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin:0 10px;
+            border:none;
+        }
+
+        .btn:hover{
+            opacity: 0.8; /*Aqui cambia de color un poco el boton*/
+            cursor:pointer; /*Aqui le ponemos de flecha a mano progress pone la flechita a cargar*/
+        }
+
+        /*TAMAñO*/
+
+        .small{
+            font-size: 14px;
+            padding:10px 15px;
+        }
+
+        .medium{
+            font-size: 16px;
+            padding: 15px 20px;
+        }
+
+        .big{
+            font-size: 18px;
+            padding:20px 25px;
+        
+        }
+
+        /*COLORES*/
+        .verde{
+            background-color: rgb(186, 255, 68);
+        }
+
+        .naranja{
+            background-color:rgb(252, 103, 86);
+            
+        }
+
+        .azul{
+            background-color: rgb(35, 141, 240);
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <button class="btn">Boton estandar</button>
+    </div>
+
+    <div>
+        <button class="btn small verde">Boton pequeño</button>
+        <button class="btn medium naranja">Boton mediano</button>
+        <button class="btn big azul">Boton grande</button>
+    </div>
+</body>
+</html>

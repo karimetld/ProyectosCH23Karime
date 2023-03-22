@@ -55,15 +55,9 @@
 
         }
         /*MODELO DE CAJAS*/
-        main{
-            width: 100%;
-            height: 300px;
-            border:10px solid rgb(253, 194, 253);
-            padding:20px 35px;
-
-        }
+       
         h1{
-            text-shadow: 4px 3px rgba(253, 141, 247, 0.384); /*Los rgba son para opacidad*/
+            text-shadow: 4px 3px 2px rgba(197, 10, 197, 0.384); /*Los rgba son para opacidad, los 4 px son para mover la sombre y la d 3px es para moverla hacia abajo*/
             color: rgb(3, 170, 156);
             text-align:center;
         }
@@ -72,25 +66,58 @@
         }
         .parraf{
             text-align: center;
-            line-height: 1.5;
+            line-height: 1.5; /*Espacio entre cada linea*/
             word-spacing: 10px;
+            text-indent: 40px;
             
         }
         .parraff{
             font-size: small;
             font-style: italic;
             font-weight: 200;
+            text-indent: 20px;
+            line-height: 20px;
+            word-spacing: 10px;
+            
         
         }
         a{
             text-decoration: none;
             text-transform: uppercase;
             font-size: 20px;
-            letter-spacing: 3px;
+            letter-spacing: 4px;
         }
-        a:hover{
+        a:hover{ /*Esto es una sobreclase*/
             text-decoration: underline;
         }
+
+       .info{
+            text-transform:uppercase;
+            font-size:large;
+            text-decoration: none;
+            font-family:  Verdana;
+            background: #fcc0f9;
+            color:hsl(194, 70%, 52%)
+
+        }
+      .enlace1{
+        color: beige;
+        text-transform:lowercase;
+        background:rgb(176, 195, 255);
+        padding: 10px;
+        width: 500px;
+        display:inline-block;
+
+      }
+      
+      .enlace2{
+        color: beige;
+        text-transform:lowercase;
+        background:rgb(176, 195, 255);
+        padding: 10px;
+        width: 500px;
+        display:inline-block;
+      }
     </style>
 </head>
 <body>
@@ -118,10 +145,15 @@
                 <p>Las relaciones humanas son la fuente del amor. Aprendemos a amar por medio de la relación <br> que establecemos con los demás, ya que las experiencias compartidas fortalecen los vínculos emocionales.<br> A la vez, las relaciones de calidad se forman en la práctica del buen amor.</p>
                 <a href="">Twitter☺ </a>
             </div>
-        
-            <ul>
-                <li>Informacion</li>
+            <div class="info">
+                <li>Informacion:</li>
+         
+            <ul id="enlaces">
+                
+                <a class="enlace1" href=""> <i>enlace 01</i></a>
+                <a class="enlace2" href=""> <i>enlace 02</i> </a>
             </ul>
+            </div>
         </section>
     </main>
 

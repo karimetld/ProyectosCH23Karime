@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .caja{
+            background: rgb(70, 146, 216);
+            width:200px;
+            height: 200px;
+            margin: 20px;  
+            position:relative;
+              /*Float Para posicionar cajas de forma horizontal*/     
+        }
+
+        .position{
+            background: rgb(255, 72, 255);
+            position:fixed;
+            bottom:0%;
+            right: 0%;
+
+        
+        }
+
+        .position2{
+            background: rgb(180, 248, 52);
+        }
+        .position3{
+            background: rgb(252, 217, 24);
+            position:relative;
+            
+        }
+        .position4{
+            background: darkred;
+
+        }
+        .position5{
+            background: orangered;
+            position:relative;
+          
+
+        }
+        .position6{
+            background: palevioletred;
+
+        }
+        .position7{
+            background: rgb(243, 70, 107);
+            position:absolute;
+           
+        }
+        .caja-padre{
+            margin: 20px;
+            background:chartreuse;
+            width:500px;
+            height: 500px;
+            position:relative;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="caja"></div>
+
+    <div class="caja-padre">
+    <div class="caja position"></div>
+    </div>
+
+    <div class="caja position2"></div>
+    <div class="caja position3"></div>
+    <div class="caja position4"></div>
+    <div class="caja position5"></div>
+    <div class="caja position6"></div>
+    <div class="caja position7"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USO DEL FLOAT</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial;
+        }
+        .main{
+            background: rgb(147, 185, 255);
+            width: 90%;
+            margin:auto;
+            padding:10px;
+            overflow: hidden;
+
+        }
+        .caja{
+            width: 500px;
+            height: 200px;
+            margin:20px;
+          
+        }
+        .img{
+            float:left;
+            width: auto;
+
+        }
+        .text{
+            float:left;
+        }
+        /*ESTILO PARA ARTICULO*/
+        .articulo{
+            background: lightpink;
+            width: 500px;
+            margin:auto;
+
+        }
+        .articulo h2{
+            text-align: center;
+            padding:10px;
+        }
+
+        .articulo img{
+            float:right;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="caja img">
+            <img src="https://loremflickr.com/g/320/240/paris" height="200">
+        </div>
+        <div class="caja text">
+            <h2>Soy un encabezado</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et magnam suscipit numquam vel accusantium 
+            a quas fugit, eos voluptas cum ut tenetur eaque repellendus optio libero doloremque quia sed qui.</p>
+        </div>
+    </main>
+    
+    <article class="articulo">
+        <h3>Encabezado de articulo</h3>
+        <img src="https://loremflickr.com/320/240/brazil,rio" width="200">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo vel iste, obcaecati beatae cumque amet tenetur fugit. 
+            Consectetur doloribus, nostrum perferendis commodi voluptates accusamus atque reprehenderit, soluta amet quidem unde.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolor est odio rerum officiis provident consequuntur reprehenderit dicta, 
+            non animi deleniti distinctio eveniet possimus suscipit voluptatem pariatur quisquam! Odio, impedit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit totam sapiente rerum esse deserunt
+        doloremque magnam vitae quibusdam? Dicta deleniti architecto neque illo itaque magni asperiores ducimus explicabo aliquid.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, saepe! Harum quod explicabo autem porro voluptatum asperiores 
+        provident libero quos qui quidem eum, ea, iste eos amet dolores excepturi id.</p>
+
+
+    </article>
+</body>
+</html>
